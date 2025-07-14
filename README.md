@@ -1,4 +1,4 @@
-###TUGAS 1
+##TUGAS 1
 
 ##🥐 Aplikasi Toko Roti Sederhana
 Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka baris perintah (CLI). Dibuat untuk keperluan pembelajaran atau tugas praktikum.
@@ -37,7 +37,8 @@ Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka 
 | Validasi input   | Menambahkan pengecekan input dan error handling ringan                      |
 | Pengulangan kode | Bagian seperti `lihat_stok()` tidak dipanggil dua kali                      |
 
-###TUGAS 2
+##TUGAS 2
+
 ##Dokumen Spesifikasi Sistem
 Sistem terdiri dari dua peran utama:
 
@@ -54,3 +55,5 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 [Penjual] ← [Tambah Produk] ← [Lihat Stok / Riwayat / Total Pemasukan]
 
 ###TUGAS 3
+
+##H
