@@ -16,3 +16,21 @@ Aplikasi web sederhana untuk memesan makanan secara online.
 ## Login
 - Admin: `admin` / `admin`
 - User: `user` / `user`
+
+/foodorderku
+├── index.php
+├── login.php
+├── menu.php
+├── order.php
+├── admin/
+│   ├── dashboard.php
+│   └── kelola_menu.php
+├── assets/
+│   ├── css/
+│   └── img/
+├── backup/
+├── config/
+│   └── koneksi.php
+├── database/
+│   └── foodorder_db.sql
+└── README.md
