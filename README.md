@@ -51,10 +51,50 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 
 ##Diagram Alur Kerja dan Arsitektur
 
-[Pembeli] → [Lihat Stok] → [Beli Roti] → [Bayar] → [Riwayat + Pemasukan]
+┌────────────────────────────┐
+│        Mulai Program       │
+└────────────┬───────────────┘
+             │
+     ┌───────▼────────┐
+     │ Pilih Peran:   │
+     │ 1. Penjual     │
+     │ 2. Pembeli     │
+     └───────┬────────┘
+             │
+ ┌───────────▼────────────┐                 ┌──────────────────────┐
+ │       Login Penjual    │                 │     Login Pembeli     │
+ └───────────┬────────────┘                 └──────────┬───────────┘
+             │                                         │
+ ┌───────────▼────────────┐                 ┌──────────▼────────────┐
+ │     Menu Penjual:      │                 │     Menu Pembeli:     │
+ │ 1. Tambah Roti         │                 │ 1. Lihat Stok         │
+ │ 2. Lihat Stok          │                 │ 2. Beli Roti          │
+ │ 3. Lihat Pemasukan     │                 │ 3. Bayar dan Selesai  │
+ │ 4. Lihat Riwayat       │                 └──────────┬────────────┘
+ │ 5. Kembali             │                            │
+ └──────┬────┬────┬───────┘                 ┌──────────▼────────────┐
+        │    │    │                         │  Proses Pembelian:    │
+        │    │    │                         │ - Pilih Roti          │
+        │    │    │                         │ - Masukkan Jumlah     │
+        │    │    │                         │ - Total Harga         │
+        │    │    │                         └──────────┬────────────┘
+        │    │    │                                    │
+        ▼    ▼    ▼                                    ▼
+ Tambah Roti /  Lihat Pemasukan /          Update Stok & Total Pemasukan
+ Riwayat Pembelian                         Simpan ke Riwayat Transaksi
 
-               |      
-[Penjual] ← [Tambah Produk] ← [Lihat Stok / Riwayat / Total Pemasukan]
+                          ┌────────────────────────┐
+                          │     Kembali ke Menu    │
+                          └────────────┬───────────┘
+                                       ▼
+                               Apakah ingin keluar?
+                                 │      │
+                                Tidak   Ya
+                                 │      ▼
+                                 │  ┌───────────┐
+                                 └─►│   Selesai  │
+                                    └───────────┘
+
 
 ###TUGAS 3
 
