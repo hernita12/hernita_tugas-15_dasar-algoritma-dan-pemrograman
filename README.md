@@ -52,7 +52,9 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 ##Diagram Alur Kerja dan Arsitektur
 
 [Pembeli] → [Lihat Stok] → [Beli Roti] → [Bayar] → [Riwayat + Pemasukan]
-    ↑                                                    
+
+    ↑       
+    
 [Penjual] ← [Tambah Produk] ← [Lihat Stok / Riwayat / Total Pemasukan]
 
 ###TUGAS 3
