@@ -50,6 +50,7 @@ Pembeli: melihat daftar roti, memesan, dan membayar.
 Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi, fungsi penjual, pembeli, dan menu utama.
 
 ##Diagram Alur Kerja dan Arsitektur
+
 [Pembeli] → [Lihat Stok] → [Beli Roti] → [Bayar] → [Riwayat + Pemasukan]
     ↑                                                    
 [Penjual] ← [Tambah Produk] ← [Lihat Stok / Riwayat / Total Pemasukan]
