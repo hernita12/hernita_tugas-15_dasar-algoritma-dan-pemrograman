@@ -51,44 +51,48 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 
 1. Program dimulai
 2. Menampilkan menu utama:
-   - 1. Login sebagai Pembeli
-   - 2. Login sebagai Penjual
-   - 3. Keluar
+   1. Login sebagai Pembeli
+   2. Login sebagai Penjual
+   3. Keluar
 
 3. Jika pengguna memilih Pembeli:
    3.1. Input nama pembeli
+   
    3.2. Menampilkan menu pembeli:
-        - 1. Lihat stok roti
-        - 2. Beli roti
-        - 3. Selesai dan Bayar
+        1. Lihat stok roti
+        2. Beli roti
+        3. Selesai dan Bayar
+   
    3.3. Jika memilih lihat stok → tampilkan daftar stok
+   
    3.4. Jika memilih beli roti:
         - Input nama roti dan jumlah
         - Cek apakah stok cukup
         - Jika cukup → masukkan ke keranjang
         - Jika tidak → tampilkan pesan stok tidak cukup
+   
    3.5. Jika memilih selesai dan bayar:
         - Tampilkan ringkasan belanja
         - Tambahkan pemasukan
         - Simpan ke riwayat pembelian
 
 4. Jika pengguna memilih Penjual:
+   
    4.1. Menampilkan menu penjual:
-        - 1. Tambah roti ke stok
-        - 2. Lihat stok roti
-        - 3. Lihat total pemasukan
-        - 4. Lihat riwayat pembelian
-        - 5. Kembali ke menu utama
+        1. Tambah roti ke stok
+        2. Lihat stok roti
+        3. Lihat total pemasukan
+        4. Lihat riwayat pembelian
+        5. Kembali ke menu utama
+   
    4.2. Penjual bisa menambahkan roti (input nama, harga, stok)
+   
    4.3. Bisa melihat stok, pemasukan, dan transaksi
 
-5. Jika memilih keluar:
+7. Jika memilih keluar:
    - Program akan berhenti dan menampilkan pesan terima kasih
 
-6. Program selesai
-
-
-
+8. Program selesai
 
 # TUGAS 3
 
