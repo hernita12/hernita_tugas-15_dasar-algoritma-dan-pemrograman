@@ -51,6 +51,54 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 
 
 
-## TUGAS 3
+##  Tutorial Penggunaan Aplikasi
+### Sebagai Pembeli:
 
-##H
+- Pilih menu 1
+
+- Masukkan nama pembeli
+
+- Pilih “Beli Roti” dan masukkan nama roti & jumlah
+
+- Lanjutkan hingga selesai, lalu pilih “Selesai dan Bayar”
+
+### Sebagai Penjual:
+
+- Pilih menu 2
+
+- Tambah produk, cek stok, cek pemasukan, atau lihat riwayat pembelian
+
+##FAQ dan Troubleshooting
+Q: Tidak bisa input angka?
+
+A: Pastikan hanya mengetik angka, bukan huruf atau simbol
+
+Q: Data stok hilang setelah keluar?
+
+A: Aplikasi ini belum menyimpan ke file. Gunakan fitur backup (fitur tambahan)
+
+##Pengujian Fitur
+
+Setiap fitur dalam aplikasi telah diuji secara manual:
+
+- Saat menambah produk, sistem berhasil menyimpan nama, harga, dan jumlah stok roti.
+
+- Saat membeli roti, sistem mengecek apakah stok mencukupi sebelum memproses pembelian.
+
+- Jika nama roti salah atau stok tidak mencukupi, sistem menampilkan pesan kesalahan yang jelas.
+
+- Setelah pembelian selesai, sistem mencatat riwayat pembelian dan menambahkan total pemasukan.
+
+## Pengujian Validasi
+
+- Input angka yang salah (misalnya huruf atau simbol) akan ditolak dengan pesan peringatan.
+
+- Jika pembeli mencoba membeli roti yang tidak tersedia atau tidak ada stok, aplikasi akan menolak transaksi tersebut dengan aman.
+  
+## Analisis Kinerja dan Optimasi
+
+- Aplikasi berjalan lancar untuk input skala kecil hingga menengah.
+
+- Tidak ditemukan bug besar saat pengujian.
+
+- Optimasi dilakukan pada bagian input (validasi angka), penggunaan fungsi reusable untuk menghindari duplikasi kode, serta struktur menu yang lebih modular agar mudah dikembangkan.
