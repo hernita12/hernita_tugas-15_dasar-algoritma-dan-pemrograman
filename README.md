@@ -1,8 +1,9 @@
-#🥐 Aplikasi Toko Roti Sederhana
+# 🥐 Aplikasi Toko Roti Sederhana
 Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka baris perintah (CLI). Dibuat untuk keperluan pembelajaran atau tugas praktikum.
 
-#Fitur
-##Pembeli:
+# Fitur
+
+## Pembeli:
 - Melihat daftar roti yang tersedia (stok)
 
 - Memesan roti sesuai jumlah
@@ -11,7 +12,7 @@ Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka 
 
 - Transaksi disimpan ke riwayat pembelian
 
-##Penjual:
+## Penjual:
 - Menambahkan produk roti ke stok
 
 - Melihat stok roti
@@ -20,12 +21,12 @@ Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka 
 
 - Melihat riwayat pembelian dan data pembeli
 
-##fitur tambahan 
+## fitur tambahan 
 - riwayat pembelian otomatis tersimpan
 - rekap total pemasukan dari hasil transaksi
 - validasi input angka
 
-##optimasi:
+## optimasi:
 | Area             | Perbaikan                                                                   |
 | ---------------- | --------------------------------------------------------------------------- |
 | Struktur fungsi  | Fungsi lebih modular (dipisah dan ringkas)                                  |
@@ -36,17 +37,17 @@ Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka 
 | Pengulangan kode | Bagian seperti `lihat_stok()` tidak dipanggil dua kali                      |
 
 
-##Dokumen Spesifikasi Sistem
+## Dokumen Spesifikasi Sistem
 Sistem terdiri dari dua peran utama:
 
 Penjual: mengelola produk, melihat pemasukan, dan riwayat transaksi.
 
 Pembeli: melihat daftar roti, memesan, dan membayar.
 
-##Code Documentation yang lengkap
+## Code Documentation yang lengkap
 Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi, fungsi penjual, pembeli, dan menu utama.
 
-##Diagram Alur Kerja dan Arsitektur
+## Diagram Alur Kerja dan Arsitektur
 
 
 
