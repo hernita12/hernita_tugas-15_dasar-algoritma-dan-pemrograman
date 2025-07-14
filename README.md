@@ -1,4 +1,5 @@
 ###TUGAS 1
+
 ##🥐 Aplikasi Toko Roti Sederhana
 Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka baris perintah (CLI). Dibuat untuk keperluan pembelajaran atau tugas praktikum.
 
