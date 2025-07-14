@@ -1,36 +1,21 @@
-# Aplikasi Pemesanan Makanan - FoodOrderku 🍔
-Aplikasi web sederhana untuk memesan makanan secara online.
+##🥐 Aplikasi Toko Roti Sederhana
+Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka baris perintah (CLI). Dibuat untuk keperluan pembelajaran atau tugas praktikum.
 
-## Fitur
-- Login user & admin
-- Daftar menu makanan
-- Pemesanan dan laporan
-- Backup data ke CSV
+##📌 Fitur
+#👤 Pembeli:
+- Melihat daftar roti yang tersedia (stok)
 
-## Cara Install
-1. Clone repo ini
-2. Jalankan XAMPP → Aktifkan Apache & MySQL
-3. Import database dari `database/foodorder_db.sql`
-4. Akses `localhost/foodorderku`
+- Memesan roti sesuai jumlah
 
-## Login
-- Admin: `admin` / `admin`
-- User: `user` / `user`
+- Melihat total harga belanja
 
-/foodorderku
-├── index.php
-├── login.php
-├── menu.php
-├── order.php
-├── admin/
-│   ├── dashboard.php
-│   └── kelola_menu.php
-├── assets/
-│   ├── css/
-│   └── img/
-├── backup/
-├── config/
-│   └── koneksi.php
-├── database/
-│   └── foodorder_db.sql
-└── README.md
+- Transaksi disimpan ke riwayat pembelian
+
+#🧑‍💼 Penjual:
+- Menambahkan produk roti ke stok
+
+- Melihat stok roti
+
+- Melihat total pemasukan
+
+- Melihat riwayat pembelian dan data pembeli
