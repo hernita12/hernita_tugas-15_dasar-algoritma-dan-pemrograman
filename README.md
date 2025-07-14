@@ -49,27 +49,53 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 
 ## Diagram Alur Kerja dan Arsitektur
 
-[User Memilih Role]
-     ↓
-[Jika Pembeli] ←─┐
-     ↓           │
-[Input Nama]     │
-     ↓           │
-[Lihat Stok]     │
-     ↓           │
-[Beli Roti]      │
-     ↓           │
-[Bayar]          │
-     ↓           │
-[Selesai]        │
-                 │
-[Jika Penjual] ──┘
-     ↓
-[Tambah/Lihat Stok]
-     ↓
-[Lihat Pemasukan / Riwayat]
-     ↓
-[Selesai]
+START
+  │
+  ▼
+[User memilih role]
+  │
+  ├── jika Pembeli
+  │     │
+  │     ▼
+  │   [Input nama pembeli]
+  │     │
+  │     ▼
+  │   [Tampilkan menu pembeli]
+  │     │
+  │     ├── [Lihat stok roti]
+  │     │
+  │     ├── [Beli roti]
+  │     │     │
+  │     │     └── [Validasi nama & stok roti]
+  │     │           │
+  │     │           └── [Tambah ke keranjang & kurangi stok]
+  │     │
+  │     └── [Selesai dan bayar]
+  │             │
+  │             └── [Tampilkan ringkasan + simpan riwayat]
+  │
+  └── jika Penjual
+        │
+        ▼
+     [Tampilkan menu penjual]
+        │
+        ├── [Tambah roti ke stok]
+        │
+        ├── [Lihat stok roti]
+        │
+        ├── [Lihat total pemasukan]
+        │
+        └── [Lihat riwayat pembelian]
+        │
+        ▼
+     [Kembali ke menu utama]
+  │
+  ▼
+[Keluar dari aplikasi]
+  │
+  ▼
+END
+
 
 
 # TUGAS 3
