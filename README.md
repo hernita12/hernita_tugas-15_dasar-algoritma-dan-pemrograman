@@ -5,7 +5,7 @@
 ### Pembeli:
 - Melihat daftar roti yang tersedia (stok)
 
-- Memesan roti sesuai jumlah
+- Memesan roti sesuai keinginan
 
 - Melihat total harga belanja
 
@@ -150,7 +150,7 @@ Setiap fitur dalam aplikasi telah diuji secara manual:
 
 - Input angka yang salah (misalnya huruf atau simbol) akan ditolak dengan pesan peringatan.
 
-- Jika pembeli mencoba membeli roti yang tidak tersedia atau tidak ada stok, aplikasi akan menolak transaksi tersebut dengan aman.
+- Jika pembeli mencoba membeli roti yang tidak tersedia atau tidak ada stok, aplikasi akan menolak transaksi tersebut.
   
 ## Analisis Kinerja dan Optimasi
 
