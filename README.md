@@ -1,4 +1,4 @@
-# TUGAS 1
+# TUGAS 1 PENGEMBANGAN APLIKASI
 
 ## Fitur
 
@@ -26,16 +26,18 @@
 - validasi input angka
 
 ## optimasi:
-| Area             | Perbaikan                                                                   |
-| ---------------- | --------------------------------------------------------------------------- |
-| Struktur fungsi  | Fungsi lebih modular (dipisah dan ringkas)                                  |
-| Perulangan       | Hindari `while True` tak perlu, gunakan loop yang efisien                   |
-| Global variable  | Hindari penggunaan `global` (diganti lewat parameter & return)              |
-| Pengolahan data  | Gunakan dictionary lebih rapi, dan `pandas` digunakan hanya saat dibutuhkan |
-| Validasi input   | Menambahkan pengecekan input dan error handling ringan                      |
-| Pengulangan kode | Bagian seperti `lihat_stok()` tidak dipanggil dua kali                      |
 
-# TUGAS 2
+- Eliminasi duplikasi kode, penggunaan fungsi input_int() untuk input angka.
+
+- Perbaikan efisiensi pencarian produk: menggunakan produk[produk["Nama"].str.lower() == nama_roti.lower()] ketimbang loop manual.
+
+- Pemrosesan keranjang dan stok lebih aman dan efisien.
+
+- Struktur fungsi dipisahkan dengan lebih modular agar mudah diuji/diubah.
+
+- Penulisan ulang logika menu utama agar lebih ringkas dan mudah dibaca.
+
+# TUGAS 2 DOKUMENTASI TEKNIS
 
 ## Dokumen Spesifikasi Sistem
 Aplikasi ini merupakan simulasi toko roti berbasis Python menggunakan antarmuka baris perintah (CLI). Dibuat untuk keperluan pembelajaran atau tugas praktikum. Sistem terdiri dari dua peran utama:
@@ -94,7 +96,7 @@ Sudah tersedia komentar dan struktur kode terorganisir per bagian: inisialisasi,
 
 8. Program selesai
 
-# TUGAS 3
+# TUGAS 3 USER MANUAL
 
 ## Panduan instalasi
 - buka google colab
@@ -132,7 +134,7 @@ Q: Data stok hilang setelah keluar?
 
 A: Aplikasi ini belum menyimpan ke file. Gunakan fitur backup (fitur tambahan)
 
-#  TUGAS 4
+#  TUGAS 4 PENGUJIAN DAN EVALUASI
 
 ## Pengujian Fitur
 
