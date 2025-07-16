@@ -114,6 +114,8 @@ F. Program selesai
 
 ##  Tutorial Penggunaan Aplikasi
 
+Pada menu utama akan muncul beberapa pilihan login
+
 ### Sebagai Pembeli:
 
 - Pilih menu 1
@@ -129,6 +131,10 @@ F. Program selesai
 - Pilih menu 2
 
 - Tambah produk, cek stok, cek pemasukan, atau lihat riwayat pembelian
+
+- jika sudah menambahkan satu produk akan ditanya apakah ingin menambah produk lainnya atau tidak
+
+lalu ketik 3 untuk keluar
 
 ## FAQ dan Troubleshooting
 Q: Tidak bisa input angka?
