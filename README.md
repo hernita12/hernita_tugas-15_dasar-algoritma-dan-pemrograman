@@ -25,7 +25,7 @@
 - rekap total pemasukan dari hasil transaksi
 - validasi input angka
 
-## optimasi:
+## optimisasi:
 
 - Eliminasi duplikasi kode, penggunaan fungsi input_int() untuk input angka.
 
